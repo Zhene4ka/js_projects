@@ -13,9 +13,9 @@ function equation_solution(a, b, c) {
 }
 
 function calc() {
-  var a = document.querySelector('#a').value
-  var b = document.querySelector('#b').value
-  var c = document.querySelector('#c').value
+  var a = +document.querySelector('#a').value
+  var b = +document.querySelector('#b').value
+  var c = +document.querySelector('#c').value
   var out = document.querySelector('#output')
-  out.innerText = 'Корни уравнения:' + equation_solution(a, b, c)
+  out.innerText = 'Корни уравнения: ' + equation_solution(a, b, c)
 }
