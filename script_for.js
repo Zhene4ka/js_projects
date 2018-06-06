@@ -31,7 +31,7 @@ function getNOK() {
   return nok
 }
 
-function check_on_simple(n) {
+function check_on_prime(n) {
   var result = n
   for (var i = 2; i < n; i++) {
     if (n % i === 0) {
@@ -42,11 +42,11 @@ function check_on_simple(n) {
   return result
 }
 
-function print_all_simple() {
+function print_all_prime_numbers() {
   var c = +document.querySelector('#field_4').value
   var result = ''
   for (var i = 1; i <= c; i++) {
-    if (check_on_simple(i)) {
+    if (check_on_prime(i)) {
       result += i + ' '
     }
   }
