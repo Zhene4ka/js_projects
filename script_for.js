@@ -52,3 +52,12 @@ function print_all_simple() {
   }
   return result
 }
+
+function calc_fact() {
+  var n = +document.querySelector('#field_5').value
+  var f = 1
+  for (var i = 2; i <= n; i++) {
+    f *= i
+  }
+  return f
+}
