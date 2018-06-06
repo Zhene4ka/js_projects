@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>cyrcles</title>
+</head>
+<body>
+  <h1>Cyrcles</h1>
+  <p>b) Введите текст:</p>
+  <input type="text" id="field_1" value="qwertyui"><br><br>
+  <input type="submit" value="Count of letters 'b'" onclick="out('#output_1', get_count_b())">
+  <p id="output_1"></p><br><br>
+
+
+  <p>e) Введите первое число</p>
+  <input type="number" id="field_2" value="2">
+  <p>Введите второе число</p>
+  <input type="number" id="field_3" value="3"><br><br>
+  <input type="submit" value="НОК" onclick="out('#output_2', getNOK())">
+  <p id="output_2"></p><br><br>
+
+  <p>f) Введите число</p>
+  <input type="number" id="field_4" value="2"><br><br>
+  <input type="submit" value="Найти" onclick="out('#output_3', print_all_simple())">
+  <p id="output_3"></p>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
