@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="">Кол-во студентов
+    <p id="studentsCount"></p>
+    Кол-во групп
+    <p id="groupsCount"></p>
+    Кол-во женщин и мужчин соответственно
+    <p id="wAmCount"></p>
+    Средний возраст студентов
+    <p id="avarageAge"></p>
+    Возраст и фамилия самого молодого и старого студентов соответственно
+    <p id="ageAndLastnameStudentWithMinAndMaxAges"></p>
+    Статистика по группам
+    <p id="groupsInfo"></p>
+  </div>
+
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
