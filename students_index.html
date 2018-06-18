@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список студентов</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div class="table-wrapper">
+  <div class="students-holder">
+    <table id="studentsInfo"></table>
+  </div>
+    <table id="groupsInfo"></table>
+    <table id="studentListForGroup"></table>
+</div>
+
+<div id="studentInfo" style="display:none;">
+  <form>
+    <div>
+      Фамилия
+      <input type="text" id="lastName">
+    </div>
+    <div>
+      Имя
+      <input type="text" id="firstName">
+    </div>
+    <div>
+      Возраст
+      <input type="text" id="age">
+    </div>
+    <div>
+      Пол
+      <input type="text" id="gender">
+    </div>
+    <div>
+      Номер группы
+      <input type="text" id="groupNumber">
+    </div>
+    <div>
+      <button type="button" onclick="onClose()">Закрыть</button>
+      <button type="button" onclick="save()">Сохранить</button>
+    </div>
+  </form>
+</div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+html, body, table {
+  margin: 0;
+  padding: 0;
+}
+
+ .table-wrapper{
+  display: flex;
+}
+
+/* .table-holder {
+display: inline-block;
+  width: 48%;
+} */
+
+table{
+  display: inline-block;
+
+}
+
+table th {
+  background-color: #447;
+  color: #fff;
+  padding: .5rem;
+  border: 1px solid white;
+  font-size: 1rem;
+  font-weight:lighter;
+}
+
+table td {
+  padding: .125rem .25rem;
+  border: 1px double pink;
+}
+
+#groupsInfo td {
+  cursor: pointer;
+  transition: all .1s linear;
+}
+
+
+#groupsInfo tr:hover {
+  background-color:  #447;
+  color: #fff;
+}
+
+.students-holder {
+  display: inline-block;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+input, button {
+  border: 1px double pink;
+  margin: 4px 4px;
+}
+button {
+  align-content: center;
+}
+
+form {
+  border: 2px solid pink;
+  display: inline-block;
+  margin-top: 12px;
+}
