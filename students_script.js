@@ -26,6 +26,7 @@ function onClose() {
 }
 
 function listGenerate() {
+  document.getElementById('studentsInfo').innerHTML = '';
   people.forEach(function (student) {
     document.getElementById('studentsInfo').innerHTML += `<tr onclick="showStudentInfo(this)" id="${student._id}"><td>` + student.name.first + ' ' + student.name.last + ', группа:' + student.group + '</td></tr>';
   })
